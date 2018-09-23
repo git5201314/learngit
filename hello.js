@@ -20,3 +20,7 @@ function sort(arr){
 function max(){
     return Math.max.call(null, arguments);
 }
+
+function min(){
+	return Math.min.call(null, arguments);
+}
