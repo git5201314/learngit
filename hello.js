@@ -16,3 +16,7 @@ function sort(arr){
         return a - b;
     });
 }
+
+function max(){
+    return Math.max.call(null, arguments);
+}
