@@ -16,3 +16,7 @@ function sort(arr){
         return a - b;
     });
 }
+
+function min(){
+	return Math.min.call(null, arguments);
+}
